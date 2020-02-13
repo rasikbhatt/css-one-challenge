@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: 0;
+}
+html{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.ping{
+    position: relative;
+    left: 39%;   
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.one span{
+    font-weight: 700;
+}
+.wls{
+    align-content: centre;
+}
+.one{
+    font-size: 20px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.two {
+    font-size: 12px;
+    text-align: center;
+}
+#aaa{
+    margin-left: 2.5rem;
+    border-radius: 4rem;
+    padding-left: 1rem;
+    width: 260px;
+    height: 40px;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+    border-color: hsl(223, 87%, 63%);;
+    border-width: 1px;
+}
+.bbb{
+    display: block;
+    width: 280px;
+    height: 40px;
+    margin-left: 2.5rem;
+    border-radius: 4rem;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+}
+.img{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    margin-left: 3vh;
+}
+.social{
+    position: relative;
+    left: 30%;
+    
+}
+.one1{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1.3rem;
+}
