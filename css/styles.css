@@ -7,8 +7,7 @@ html{
     font-family: 'Libre Franklin', sans-serif;
 }
 .ping{
-    position: relative;
-    left: 39%;   
+    text-align: center;  
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -28,11 +27,12 @@ html{
     text-align: center;
 }
 #aaa{
-    margin-left: 2.5rem;
+    position: relative;
+    left: 11%;
     border-radius: 4rem;
     padding-left: 1rem;
-    width: 260px;
-    height: 40px;
+    width: 71%;
+    height: 7vh;
     margin-top: 1.3rem;
     margin-bottom: 1rem;
     border-color: hsl(223, 87%, 63%);;
@@ -40,9 +40,10 @@ html{
 }
 .bbb{
     display: block;
-    width: 280px;
-    height: 40px;
-    margin-left: 2.5rem;
+    width: 75%;
+    height: 8vh;
+    position: relative;
+    left: 11%;
     border-radius: 4rem;
     background-color: hsl(223, 87%, 63%);
     color: white;
@@ -50,15 +51,39 @@ html{
 .img{
     margin-top: 3rem;
     margin-bottom: 4rem;
-    margin-left: 3vh;
+    margin-left: 8vw;
 }
 .social{
-    position: relative;
-    left: 30%;
-    
+    text-align: center;
 }
 .one1{
     font-size: 10px;
     text-align: center;
     margin-top: 1.3rem;
 }
+@media screen and (min-width:1020px){
+    .one{
+        font-size:30px;
+    }
+    #aaa{
+        position:relative;
+        left:32%;
+        width:20vw;
+        height: 5vh;
+        margin-right: 2rem;
+        text-align: center;
+    }
+    .bbb{
+        display: inline;
+        margin-left:15rem;
+        width: 12vw;
+        height: 5vh;
+    }
+    .img{
+        width: 50%;
+        height: 30%;
+        position: relative;
+        left: 20%;
+    }
+ 
+ }
